@@ -1,0 +1,188 @@
+@media screen and (max-width:768px){
+  header div.wrap nav h1 a{
+
+  }
+  header div.wrap nav ul.gnb{
+  display: none;
+  }
+  header div.wrap nav ul.enb{
+    display: none;
+  }
+  header div.wrap nav button.ham{
+    display: initial;
+  }
+  .wrap{
+   padding: 0 20px;
+  }
+  .h1{
+    font-size: calc(48px * 0.6);
+  }
+  div#title div.wrap p{
+    font-size: calc(19px * 0.6);
+  }
+  div#title div.wrap h2::before{
+    font-size: calc(65px * 0.5);
+    word-spacing: 0px;
+    left: 0;
+    top: -70px;
+  }
+    div#title div.wrap h2{
+    text-align: center;
+  }
+  #aboutme {
+    width: initial;
+    height: initial;
+  }
+  #aboutme div.wrap{
+    row-gap: initial;
+    column-gap: initial;
+    gap: initial;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top:50px;
+  }
+  #aboutme div.wrap figure img{
+    width: 250px;
+    align-self: center;
+  }
+  div#title::after{
+    width: 50px;
+    height: 70px;
+  }
+  
+  header div.wrap nav {
+    position: relative;
+  }
+  header div.wrap nav::after{
+ content:"";
+ background-image: url(../img/menu.png);
+ width: 40px;
+ height: 40px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ position: absolute;
+ right: 10px;
+}
+  
+  header div.wrap nav h1 a{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  }
+  header div.wrap nav ul.gnb{
+  display: none;
+
+  }
+
+  header div.wrap nav ul.enb{
+    display: none;
+  }
+  header div.wrap nav button.ham{
+    display: initial;
+  }
+  .wrap{
+   padding: 0 20px;
+  }
+  .h1{
+    font-size: calc(48px * 0.6);
+  }
+  div#title div.wrap p{
+    font-size: calc(19px * 0.6);
+  }
+  div#title div.wrap h2::before{
+    font-size: calc(65px * 0.5);
+    word-spacing: 0px;
+    left: 0;
+    top: -70px;
+  }
+    div#title div.wrap h2{
+    text-align: center;
+    color: #434343;
+  #aboutme {
+    width: initial;
+    height: initial;
+  }
+  #aboutme div.wrap{
+    row-gap: initial;
+    column-gap: initial;
+  }
+
+  }
+  #aboutme div.wrap h2{
+  grid-column: 1/span 3;
+  grid-row: 1;
+  justify-self: center;
+  margin-bottom: 45px;
+  }
+  #aboutme div.wrap figure{
+    grid-column: 1;
+    grid-row: 2 /span 3;
+    width: 200px;
+        align-self: center;
+    justify-self: center;
+  }
+  #aboutme div.wrap figure img{
+    width: 200px;
+    height: 425px;
+    display: flex;
+    align-items: end;
+
+  }
+  #aboutme div.wrap ul.intro li:not(:first-child):hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+  #aboutme div.wrap ul.intro li h3 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  #aboutme div.wrap ul.intro li:not(:first-child) p{
+    display: none;
+  }
+  #aboutme div.wrap ul.intro li:nth-child(2), #aboutme div.wrap ul.intro li:nth-child(3), #aboutme div.wrap ul.intro li:nth-child(4){
+    width: 70px;
+    height: 70px;
+  }
+  #aboutme div.wrap ul.intro li:nth-child(3){
+    transform: translateX(110px);
+  }
+  #aboutme div.wrap ul.intro li:nth-child(even){
+    transform: translateX(20px);
+  }
+  #aboutme div.wrap ul.intro li{
+    position: relative;
+  }
+  #aboutme div.wrap ul.intro li:nth-child(1) p{
+    font-size: 15px;
+    margin-bottom: initial;
+    position: absolute;
+    left: -80px;
+    margin-bottom: 30px;
+  }
+  #aboutme div.wrap ul.info{
+    justify-self: center;
+    align-self: center;
+    margin: 10px 10px;
+  }
+  #aboutme div.wrap ul.info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5px 8px;
+    gap: 5px;
+  }
+  #aboutme div.wrap ul.info li:nth-child(1){
+    
+  grid-row: 1;
+  }
+    #aboutme div.wrap ul.info li:nth-child(2){
+
+  grid-row: 2;
+  grid-column: 1;
+  }
+    #aboutme div.wrap ul.info li:nth-child(3){
+
+  grid-row: 3;
+  grid-column: 1;
+  }
+}
